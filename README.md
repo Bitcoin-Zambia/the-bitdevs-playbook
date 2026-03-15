@@ -16,6 +16,16 @@ The playbook serves as:
 - A reference for sponsors and partners to understand processes, reporting, and accountability standards.  
 - A resource for participants and community members to align with the broader BitDevs movement.
 
+## Translations
+
+This Playbook is available in the following languages:
+
+| Language | Link |
+|----------|------|
+| English  | [README.md](README.md) (default) |
+| Español  | [translations/es/README.md](translations/es/README.md) |
+
+Want to add a new translation? Create a new folder under `translations/` with the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g., `translations/fr/` for French, `translations/pt/` for Portuguese) and replicate the same folder structure. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## How to Use This Playbook
 The playbook mirrors the lifecycle of a BitDevs location: setup, operations, quality control, and closure (if necessary). Each section includes steps, templates, and references. While reading the full playbook is recommended to understand how BitDevs locations operate as a cohesive network, the guidance below helps you get started based on your role.
@@ -129,17 +139,6 @@ This Playbook is maintained digitally for:
 - BitDevs organizers and volunteers  
 - Sponsors and partners  
 - Educational and technical collaborators in the Bitcoin ecosystem  
-
-## Translations
-
-This Playbook is available in the following languages:
-
-| Language | Link |
-|----------|------|
-| English  | [README.md](README.md) (default) |
-| Español  | [translations/es/README.md](translations/es/README.md) |
-
-Want to add a new translation? Create a new folder under `translations/` with the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g., `translations/fr/` for French, `translations/pt/` for Portuguese) and replicate the same folder structure. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
