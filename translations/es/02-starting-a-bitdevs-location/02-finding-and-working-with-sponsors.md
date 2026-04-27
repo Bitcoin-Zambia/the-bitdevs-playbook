@@ -37,4 +37,4 @@ Para proteger la integridad e independencia de BitDevs, todos los patrocinios de
 - Reportar resultados después de cada meetup, incluso cuando el patrocinador no lo requiera explícitamente.
 - Diversificar las fuentes de financiamiento cuando sea posible para evitar la dependencia excesiva de una sola entidad.
 
-*(Ver [Anexo E: Plantilla de Propuesta de Patrocinio.](../08-annexes.md))*
+*(Ver [Anexo E: Plantilla de Propuesta de Patrocinio.](/translations/es/08-annexes.md))*
