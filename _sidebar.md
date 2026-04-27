@@ -1,0 +1,57 @@
+- [Home](/)
+- [Getting Started](docs/getting-started.md)
+- [Guides](docs/guides.md)
+  - [Guide 1](docs/guide-1.md)
+  - [Guide 2](docs/guide-2.md)
+- [Reference](docs/reference.md)
+
+Table of Contents
+[01 - Introduction](/01-Introduction)
+[01 - Introduction.md](/01-Introduction.md)
+[01-about-this-playbook](01 - Introduction/01-about-this-playbook.md)
+02-about-bitdevs
+03-identity-and-core-principles
+04-bitdevs-in-africa-sponsored-by-btrust
+05-records-and-documentation
+02 - Starting a BitDevs Location
+01-setting-up-a-location
+02-finding-and-working-with-sponsors
+03-getting-approved-for-sponsorship-(with-Btrust)
+04-building-your-organizing-team
+05-planning-and-hosting-your-first-meetup
+03 - Running a BitDevs Location
+01-meetup-planning-and-coordination
+02-choosing-topics-and-formats
+03-growing-and-engaging-the-community
+04-reporting-and-communication
+04 - Quality Control
+01-core-standards
+02-community-conduct-and-ethics
+03-monitoring-and-evaluation
+04-handling-challenges
+05 - Closing a BitDevs Location
+01-when-and-how-to-pause-or-close-a-location
+02-final-reports-and-handover
+03-reopening-or-reapplying
+06 - Guide for Organizers
+01-roles-and-responsibilities
+02-best-practices-for-building-strong-teams
+03-recommended-tools-and-resources
+04-personal-development-and-growth-for-organizers
+07 - Guide for Sponsors
+01-how-sponsorship-works-with-btrust
+02-what-sponsors-can-and-cant-support
+03-accountability-and-collaboration
+04-partnering-for-long-term-impact
+08 - Annexes
+Annex A: BitDevs Guide
+Annex B: BitDevs Map Across Africa
+Annex C: Event Report Format
+Annex D: Finance Report Format
+Annex E: Sponsorship Proposal Template
+Annex F: Monthly Organizer Check-in
+Annex G: Budget Request Template
+Annex H: Expense Protocol
+Annex I: Starting a BitDevs Checklist
+Annex J: Quality Control Templates
+Annex K: Location Closure Checklist
