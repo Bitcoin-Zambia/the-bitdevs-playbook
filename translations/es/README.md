@@ -80,18 +80,18 @@ El playbook refleja el ciclo de vida de una sede de BitDevs: configuración, ope
 - [03-rendicion-de-cuentas-y-colaboracion](07-guide-for-sponsors/03-accountability-and-collaboration.md)
 - [04-asociarse-para-un-impacto-a-largo-plazo](07-guide-for-sponsors/04-partnering-for-long-term-impact.md)
 
-### 08 - Anexos
-- [Anexo A: Guía BitDevs](08-annexes.md)
-- [Anexo B: Mapa de BitDevs en África](08-annexes.md)
-- [Anexo C: Formato de Reporte de Evento](08-annexes.md)
-- [Anexo D: Formato de Reporte Financiero](08-annexes.md)
-- [Anexo E: Plantilla de Propuesta de Patrocinio](08-annexes.md)
-- [Anexo F: Reunión Mensual de Organizadores](08-annexes.md)
-- [Anexo G: Plantilla de Solicitud de Presupuesto](08-annexes.md)
-- [Anexo H: Protocolo de Gastos](08-annexes.md)
-- [Anexo I: Lista de Verificación para Iniciar un BitDevs](08-annexes.md)
-- [Anexo J: Plantillas de Control de Calidad](08-annexes.md)
-- [Anexo K: Lista de Verificación de Cierre de Sede](08-annexes.md)
+### **[08 - Anexos](/08-annexes.md)**
+  - [Anexo A: Guía BitDevs](/08-annexes.md?id=anexo-a-guía-bitdevs)
+  - [Anexo B: Mapa de BitDevs en África](/08-annexes.md?id=anexo-b-mapa-de-bitdevs-en-África)
+  - [Anexo C: Formato de Reporte de Evento](/08-annexes.md?id=anexo-c-formato-de-reporte-de-evento)
+  - [Anexo D: Formato de Reporte Financiero](/08-annexes.md?id=anexo-d-formato-de-reporte-financiero)
+  - [Anexo E: Plantilla de Propuesta de Patrocinio (En desarrollo)](/08-annexes.md?id=anexo-e-plantilla-de-propuesta-de-patrocinio-en-desarrollo)
+  - [Anexo F: Plantilla de Reunión Mensual de Organizadores (En desarrollo)](/08-annexes.md?id=anexo-f-plantilla-de-reunión-mensual-de-organizadores-en-desarrollo)
+  - [Anexo G: Plantilla de Solicitud de Presupuesto](/08-annexes.md?id=anexo-g-plantilla-de-solicitud-de-presupuesto)
+  - [Anexo H: Protocolo de Gastos](/08-annexes.md?id=anexo-h-protocolo-de-gastos)
+  - [Anexo I: Lista de Verificación para Iniciar un BitDevs](/08-annexes.md?id=anexo-i-lista-de-verificación-para-iniciar-un-bitdevs)
+  - [Anexo J: Plantillas de Control de Calidad y Evaluación (En desarrollo)](/08-annexes.md?id=anexo-j-plantillas-de-control-de-calidad-y-evaluación-en-desarrollo)
+  - [Anexo K: Lista de Verificación de Cierre y Traspaso de Sede (En desarrollo)](/08-annexes.md?id=anexo-k-lista-de-verificación-de-cierre-y-traspaso-de-sede-en-desarrollo)
 
 ## Colaboradores y Revisores
 
