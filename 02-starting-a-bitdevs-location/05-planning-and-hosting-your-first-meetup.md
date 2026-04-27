@@ -83,6 +83,6 @@ Once your first event is completed and reported:
 - Track documentation, finances, and progress.
 - Build relationships with other BitDevs locations to exchange ideas and resources.
 
-By completing these steps, your location transitions from **setup** to **active status**, ready to operate under the guidelines in **Section 3: [Running a BitDevs Location](/03-running-a-bitdevs-location.md)**.
+By completing these steps, your location transitions from **setup** to **active status**, ready to operate under the guidelines in **Section 3: [Running a BitDevs Location](/03-running-a-bitdevs-location/01-meetup-planning-and-coordination.md)**.
 
-*(See: [Annex I: Starting a BitDevs Checklist](/08-annexes))*
+*(See: [Annex I: Starting a BitDevs Checklist](/08-annexes.md))*
