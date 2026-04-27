@@ -35,4 +35,4 @@ Btrust supports several BitDevs locations across Africa to strengthen local Bitc
 
 Btrust’s sponsorship is logistics-focused, not influence-based, covering essential costs while preserving the organizer’s full independence over content and format.
 
-(See detail in Section 2: [Getting Approved for Sponsorship with Btrust.](/02-starting-a-bitdevs-location/03-getting-approved-for-sponsorship-with-btrust.md))
+(See detail in Section 2: [Getting Approved for Sponsorship with Btrust](./02-starting-a-bitdevs-location/03-getting-approved-for-sponsorship-with-btrust.md).)
