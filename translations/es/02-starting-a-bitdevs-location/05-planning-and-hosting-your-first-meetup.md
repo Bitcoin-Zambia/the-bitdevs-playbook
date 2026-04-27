@@ -20,8 +20,8 @@ Tu primer meetup presenta a tu comunidad lo que es BitDevs. El objetivo es mante
 - Envía propuestas de presupuesto con anticipación si solicitas patrocinio.
 - Las sedes patrocinadas por Btrust envían a través del proceso estándar de gastos mensuales antes del evento.
 
-*(Ver: [Anexo G: Plantilla de Solicitud de Presupuesto](../08-annexes.md))*
-*(Ver: [Anexo H: Protocolo de Gastos](../08-annexes.md))*
+*(Ver: [Anexo G: Plantilla de Solicitud de Presupuesto](/translations/es/08-annexes.md))*
+*(Ver: [Anexo H: Protocolo de Gastos](/translations/es/08-annexes.md))*
 
 ### 4. Curar Temas
 - Selecciona desarrollos relevantes de Bitcoin o temas de investigación.
@@ -83,6 +83,6 @@ Una vez que tu primer evento esté completado y reportado:
 - Registra la documentación, finanzas y progreso.
 - Construye relaciones con otras sedes de BitDevs para intercambiar ideas y recursos.
 
-Al completar estos pasos, tu sede pasa de **configuración** a **estatus activo**, lista para operar bajo las directrices de la **Sección 3: [Operar una Sede BitDevs](../03-running-a-bitdevs-location/01-meetup-planning-and-coordination.md)**.
+Al completar estos pasos, tu sede pasa de **configuración** a **estatus activo**, lista para operar bajo las directrices de la **Sección 3: [Operar una Sede BitDevs](/translations/es/03-running-a-bitdevs-location/01-meetup-planning-and-coordination.md)**.
 
-*(Ver: [Anexo I: Lista de Verificación para Iniciar un BitDevs](../08-annexes.md))*
+*(Ver: [Anexo I: Lista de Verificación para Iniciar un BitDevs](/translations/es/08-annexes.md))*
