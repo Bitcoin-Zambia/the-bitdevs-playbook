@@ -13,7 +13,7 @@ Para calificar para el patrocinio de Btrust, una sede de BitDevs debe:
 - Enviar reportes mensuales de Meetup y Finanzas usando las plantillas estándar.
 - Participar en las reuniones mensuales de organizadores para aprendizaje continuo y rendición de cuentas.
 
-*(Ver [Anexo F: Plantilla de Reunión Mensual de Organizadores.](08-annexes.md))*
+*(Ver [Anexo F: Plantilla de Reunión Mensual de Organizadores.](../08-annexes.md))*
 
 ## Proceso de Solicitud
 
