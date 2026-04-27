@@ -35,7 +35,7 @@ Las sedes actualmente reconocidas y apoyadas por Btrust incluyen:
 
 Esta red continúa creciendo a medida que más ciudades en África dan un paso al frente para construir, aprender y liderar dentro de la comunidad global de Bitcoin.
 
-*(Ver: [Anexo B – Mapa de BitDevs en África.](../08-annexes.md))*
+*(Ver: [Anexo B – Mapa de BitDevs en África.](/translations/es/08-annexes.md))*
 
 ## Cómo Nos Comunicamos
 
