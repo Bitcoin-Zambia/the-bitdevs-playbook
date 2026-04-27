@@ -1,5 +1,5 @@
 - 01 - Introducción
-  - [01 - Acerca de Este Playbook](.././translations/es/01-introduction/01-about-this-playbook.md)
+  - [01 - Acerca de Este Playbook](./././translations/es/01-introduction/01-about-this-playbook.md)
   - [02 - Acerca de BitDevs](.../translations/es/01-introduction/02-about-bitdevs.md)
   - [03 - Identidad y Principios Fundamentales](.../translations/es/01-introduction/03-identity-and-core-principles.md)
   - [04 - BitDevs en África: Patrocinado por Btrust](.../translations/es/01-introduction/04-bitdevs-in-africa-sponsored-by-btrust.md)
