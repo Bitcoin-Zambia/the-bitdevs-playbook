@@ -21,4 +21,4 @@ Operar una sede de BitDevs conlleva desafíos inevitables, incluyendo fluctuacio
 
 BitDevs prospera con transparencia, resiliencia y colaboración. Cada desafío presenta una oportunidad para refinar sistemas, fortalecer los lazos comunitarios y mantener los estándares que hacen que la red sea respetada globalmente.
 
-(Ver: [Anexo J: Plantillas de Control de Calidad y Evaluación.](../08-annexes.md))
+(Ver: [Anexo J: Plantillas de Control de Calidad y Evaluación.](/translations/es/08-annexes.md))
