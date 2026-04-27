@@ -36,7 +36,7 @@
   - [04 - Personal Development and Growth for Organizers](/06-guide-for-organizers/04-personal-development-and-growth.md)
 
 - 07 - Guide for Sponsors
-  - [01 - How Sponsorship Works with BTrust](/07-guide-for-sponsors/01-how-sponsorship-works-with-Btrust.md)
+  - [01 - How Sponsorship Works with BTrust](/07-guide-for-sponsors/01-how-sponsorship-works-with-btrust.md)
   - [02 - What Sponsors Can and Can't Support](/07-guide-for-sponsors/02-what-sponsors-can-and-can't-support.md)
   - [03 - Accountability and Collaboration](/07-guide-for-sponsors/03-accountability-and-collaboration.md)
   - [04 - Partnering for Long-term Impact](/07-guide-for-sponsors/04-partnering-for-long-term-impact.md)
