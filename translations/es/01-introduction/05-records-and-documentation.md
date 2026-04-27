@@ -10,7 +10,7 @@ La carpeta principal de cada sede debe incluir las siguientes dos subcarpetas fu
 
 Esta carpeta contiene la documentación y resúmenes de cada meetup mensual. Cada entrada debe incluir:
 
-- Un reporte de evento completado usando la plantilla estándar *(ver [Anexo C: Formato de Reporte de Evento](../08-annexes.md))*
+- Un reporte de evento completado usando la plantilla estándar *(ver [Anexo C: Formato de Reporte de Evento](/translations/es/08-annexes.md))*
 - Conclusiones clave de la sesión
 - Fotos, si están disponibles y compartidas con consentimiento
 - Agenda, lista de ponentes y datos destacados de asistencia
@@ -26,7 +26,7 @@ Esta carpeta contiene la documentación y resúmenes de cada meetup mensual. Cad
 
 Esta carpeta se utiliza para registrar toda la actividad financiera relacionada con las operaciones del meetup. Cada entrada debe incluir:
 
-- Un reporte financiero completado usando la plantilla estándar *(ver [Anexo D: Formato de Reporte Financiero](../08-annexes.md))*
+- Un reporte financiero completado usando la plantilla estándar *(ver [Anexo D: Formato de Reporte Financiero](/translations/es/08-annexes.md))*
 - Recibos y facturas escaneadas por cada gasto
   - Estos deben subirse en una carpeta separada y vincularse en el reporte
 - La dirección BTC utilizada para desembolsos o reembolsos
