@@ -1,9 +1,9 @@
 - 01 - Introducción
   - [01 - Acerca de Este Playbook](/translations/es/01-introduction/01-about-this-playbook.md)
-  - [02 - Acerca de BitDevs](.../translations/es/01-introduction/02-about-bitdevs.md)
-  - [03 - Identidad y Principios Fundamentales](.../translations/es/01-introduction/03-identity-and-core-principles.md)
-  - [04 - BitDevs en África: Patrocinado por Btrust](.../translations/es/01-introduction/04-bitdevs-in-africa-sponsored-by-btrust.md)
-  - [05 - Registros y Documentación](.../translations/es/01-introduction/05-records-and-documentation.md)
+  - [02 - Acerca de BitDevs](/translations/es/01-introduction/02-about-bitdevs.md)
+  - [03 - Identidad y Principios Fundamentales](/translations/es/01-introduction/03-identity-and-core-principles.md)
+  - [04 - BitDevs en África: Patrocinado por Btrust](/translations/es/01-introduction/04-bitdevs-in-africa-sponsored-by-btrust.md)
+  - [05 - Registros y Documentación](/translations/es/01-introduction/05-records-and-documentation.md)
 
 - 02 - Iniciar una Sede BitDevs
   - [01 - Iniciar una Sede BitDevs](/translations/es/02-starting-a-bitdevs-location/01-setting-up-a-location.md)
@@ -41,7 +41,7 @@
   - [03 - Rendición de Cuentas y Colaboración](/translations/es/07-guide-for-sponsors/03-accountability-and-collaboration.md)
   - [04 - Asociarse para un Impacto a Largo Plazo](/translations/es/07-guide-for-sponsors/04-partnering-for-long-term-impact.md)
 
-- **[08 - Anexos](/08-annexes.md)**
+- **[08 - Anexos](/translations/es/08-annexes.md)**
   - [Anexo A: Guía BitDevs](/translations/es/08-annexes.md?id=anexo-a-guía-bitdevs)
   - [Anexo B: Mapa de BitDevs en África](/translations/es/08-annexes.md?id=anexo-b-mapa-de-bitdevs-en-África)
   - [Anexo C: Formato de Reporte de Evento](/translations/es/08-annexes.md?id=anexo-c-formato-de-reporte-de-evento)
