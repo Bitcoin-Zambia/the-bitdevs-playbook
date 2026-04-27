@@ -41,7 +41,7 @@
   - [03 - Accountability and Collaboration](/07-guide-for-sponsors/03-accountability-and-collaboration.md)
   - [04 - Partnering for Long-term Impact](/07-guide-for-sponsors/04-partnering-for-long-term-impact.md)
 
-- [08 - Annexes](/08-annexes.md)
+- **[08 - Annexes](/08-annexes.md)**
   - [Annex A: BitDevs Guide](/08-annexes.md?id=annex-a-bitdevs-guide)
   - [Annex B: BitDevs Map Across Africa](/08-annexes.md?id=annex-b-bitdevs-map-across-africa)
   - [Annex C: Event Report Format](/08-annexes.md?id=annex-c-event-report-format)
