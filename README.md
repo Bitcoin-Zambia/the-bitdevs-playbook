@@ -91,11 +91,11 @@ The playbook mirrors the lifecycle of a BitDevs location: setup, operations, qua
 - [04-partnering-for-long-term-impact](07-guide-for-sponsors/04-partnering-for-long-term-impact.md)  
 
 ### 08 - Annexes
-- [Annex A: BitDevs Guide](08-annexes.md)  
-- [Annex B: BitDevs Map Across Africa](08-annexes.md)  
-- [Annex C: Event Report Format](08-annexes.md)  
-- [Annex D: Finance Report Format](08-annexes.md)
-- [Annex E: Sponsorship Proposal Template](08-annexes.md)  
+- [Annex A: BitDevs Guide](08-annexes.md?id=annex-a-bitdevs-guide)  
+- [Annex B: BitDevs Map Across Africa](08-annexes.md?id=annex-b-bitdevs-map-across-africa)  
+- [Annex C: Event Report Format](08-annexes.md?id=annex-a-bitdevs-guide)  
+- [Annex D: Finance Report Format](08-annexes.md?id=annex-a-bitdevs-guide)
+- [Annex E: Sponsorship Proposal Template](08-annexes.md?id=annex-a-bitdevs-guide)  
 - [Annex F: Monthly Organizer Check-in](08-annexes.md)  
 - [Annex G: Budget Request Template](08-annexes.md)  
 - [Annex H: Expense Protocol](08-annexes.md)  
