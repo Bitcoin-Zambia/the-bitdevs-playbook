@@ -20,10 +20,10 @@ El playbook sirve como:
 ## Cómo Usar Este Playbook
 El playbook refleja el ciclo de vida de una sede de BitDevs: configuración, operaciones, control de calidad y cierre (si es necesario). Cada sección incluye pasos, plantillas y referencias. Si bien se recomienda leer el playbook completo para entender cómo las sedes de BitDevs operan como una red cohesiva, la orientación a continuación te ayuda a comenzar según tu rol.
 
-- **Nuevos Organizadores:** Comienza con la Sección 2: ["Iniciar una Sede BitDevs"](./02-starting-a-bitdevs-location/01-setting-up-a-location.md) para aprender cómo crear una nueva sede desde cero. Continúa con la Sección 4: ["Control de Calidad"](./04-quality-control/01-core-standards.md) para establecer estándares desde el primer día. Luego, lee la Sección 6: ["Guía para Organizadores"](./06-guide-for-organizers/01-roles-and-responsibilities.md) para orientación sobre desarrollo de equipo y personal.
-- **Sedes Activas:** Enfócate primero en la Sección 3: ["Operar una Sede BitDevs"](./03-running-a-bitdevs-location/01-meetup-planning-and-coordination.md) para orientación operativa. Revisa la Sección 4: ["Control de Calidad"](./04-quality-control/01-core-standards.md) regularmente. Consulta la Sección 6: ["Guía para Organizadores"](./06-guide-for-organizers/01-roles-and-responsibilities.md) para seguir desarrollando tu equipo y habilidades.
-- **Patrocinadores y Colaboradores:** Consulta la Sección 7 (["Guía para Patrocinadores"](./07-guide-for-sponsors/01-how-sponsorship-works-with-btrust.md)) para modelos de financiamiento, rendición de cuentas y expectativas de colaboración.
-- **Todos:** Comienza con la Sección 1: ["Introducción"](./01-introduction/01-about-this-playbook.md) para conocer los principios fundacionales, identidad y ética de BitDevs.
+- **Nuevos Organizadores:** Comienza con la Sección 2: ["Iniciar una Sede BitDevs"](/translations/es/02-starting-a-bitdevs-location/01-setting-up-a-location.md) para aprender cómo crear una nueva sede desde cero. Continúa con la Sección 4: ["Control de Calidad"](/translations/es/04-quality-control/01-core-standards.md) para establecer estándares desde el primer día. Luego, lee la Sección 6: ["Guía para Organizadores"](/translations/es/06-guide-for-organizers/01-roles-and-responsibilities.md) para orientación sobre desarrollo de equipo y personal.
+- **Sedes Activas:** Enfócate primero en la Sección 3: ["Operar una Sede BitDevs"](/translations/es/03-running-a-bitdevs-location/01-meetup-planning-and-coordination.md) para orientación operativa. Revisa la Sección 4: ["Control de Calidad"](/translations/es/04-quality-control/01-core-standards.md) regularmente. Consulta la Sección 6: ["Guía para Organizadores"](/translations/es/06-guide-for-organizers/01-roles-and-responsibilities.md) para seguir desarrollando tu equipo y habilidades.
+- **Patrocinadores y Colaboradores:** Consulta la Sección 7 (["Guía para Patrocinadores"](/translations/es/07-guide-for-sponsors/01-how-sponsorship-works-with-btrust.md)) para modelos de financiamiento, rendición de cuentas y expectativas de colaboración.
+- **Todos:** Comienza con la Sección 1: ["Introducción"](/translations/es/01-introduction/01-about-this-playbook.md) para conocer los principios fundacionales, identidad y ética de BitDevs.
 - **Anexos:** Contienen plantillas, ejemplos y listas de verificación referenciadas a lo largo del playbook para uso práctico.
 
 ## A Quién Está Dirigido Este Playbook
@@ -38,8 +38,8 @@ El playbook refleja el ciclo de vida de una sede de BitDevs: configuración, ope
 ## Tabla de Contenidos
 
 ### 01 - Introducción
-- [01-acerca-de-este-playbook](/01-introduction/01-about-this-playbook.md)
-- [02-acerca-de-bitdevs](/01-introduction/02-about-bitdevs.md)
+- [01-acerca-de-este-playbook](/translations/es/01-introduction/01-about-this-playbook.md)
+- [02-acerca-de-bitdevs](/translations/es/01-introduction/02-about-bitdevs.md)
 - [03-identidad-y-principios-fundamentales](/01-introduction/03-identity-and-core-principles.md)
 - [04-bitdevs-en-africa-patrocinado-por-btrust](/01-introduction/04-bitdevs-in-africa-sponsored-by-btrust.md)
 - [05-registros-y-documentacion](/01-introduction/05-records-and-documentation.md)
