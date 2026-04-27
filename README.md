@@ -93,15 +93,15 @@ The playbook mirrors the lifecycle of a BitDevs location: setup, operations, qua
 ### 08 - Annexes
 - [Annex A: BitDevs Guide](08-annexes.md?id=annex-a-bitdevs-guide)  
 - [Annex B: BitDevs Map Across Africa](08-annexes.md?id=annex-b-bitdevs-map-across-africa)  
-- [Annex C: Event Report Format](08-annexes.md?id=annex-a-bitdevs-guide)  
-- [Annex D: Finance Report Format](08-annexes.md?id=annex-a-bitdevs-guide)
-- [Annex E: Sponsorship Proposal Template](08-annexes.md?id=annex-a-bitdevs-guide)  
-- [Annex F: Monthly Organizer Check-in](08-annexes.md)  
-- [Annex G: Budget Request Template](08-annexes.md)  
-- [Annex H: Expense Protocol](08-annexes.md)  
-- [Annex I: Starting a BitDevs Checklist](08-annexes.md)  
-- [Annex J: Quality Control Templates](08-annexes.md) 
-- [Annex K: Location Closure Checklist](08-annexes.md)  
+- [Annex C: Event Report Format](08-annexes.md?id=annex-c-event-report-format)  
+- [Annex D: Finance Report Format](08-annexes.md?id=annex-d-finance-report-format)
+- [Annex E: Sponsorship Proposal Template](08-annexes.md?id=annex-e-sponsorship-proposal-template)  
+- [Annex F: Monthly Organizer Check-in](08-annexes.md?id=annex-f-monthly-organizer-check-in)  
+- [Annex G: Budget Request Template](08-annexes.md?id=annex-g-budget-request-template)  
+- [Annex H: Expense Protocol](08-annexes.md?id=annex-h-expense-protocol)  
+- [Annex I: Starting a BitDevs Checklist](08-annexes.md?id=annex-i-starting-a-bitdevs-checklist)  
+- [Annex J: Quality Control Templates](08-annexes.md?id=annex-j-quality-control-templates) 
+- [Annex K: Location Closure Checklist](08-annexes.md?id=annex-k-location-closure-checklist)
 
 ## Contributors and Reviewers
 
@@ -114,6 +114,7 @@ The playbook mirrors the lifecycle of a BitDevs location: setup, operations, qua
 | Abubakar Nur Khalil | Reviewer              | CEO, Btrust                           | [@Zero-1729](https://github.com/Zero-1729)
 | Simon Njeru         | Reviewer              | Lead Organizer, BitDevs Nairobi       | [@xyephy](https://github.com/xyephy)
 | Tobechi Chukwuleta  | Reviewer              | Lead Organizer, BitDevs Lagos         | [@TChukwuleta](https://github.com/TChukwuleta)
+| 5atoshiNakamoto     | Contributor           | Advisor, BitDevs Zambia               | [@5atoshiNakamoto](https://github.com/5atoshiNakamoto)
 
 ## Contributing
 
