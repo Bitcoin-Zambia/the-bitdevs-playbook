@@ -110,7 +110,7 @@ El playbook refleja el ciclo de vida de una sede de BitDevs: configuración, ope
 
 Las sugerencias, correcciones y mejoras son bienvenidas.
 
-Por favor revisa el archivo [CONTRIBUTING.md](/translations/es/CONTRIBUTING.md) para directrices detalladas. Las contribuciones pueden hacerse abriendo un issue en GitHub o enviando un pull request. Todas las propuestas se revisan colaborativamente con el mantenedor del Playbook y, cuando sea relevante, con organizadores y contribuyentes, antes de incluirse en futuras versiones.
+Por favor revisa el archivo [CONTRIBUTING.md](/CONTRIBUTING.md) para directrices detalladas. Las contribuciones pueden hacerse abriendo un issue en GitHub o enviando un pull request. Todas las propuestas se revisan colaborativamente con el mantenedor del Playbook y, cuando sea relevante, con organizadores y contribuyentes, antes de incluirse en futuras versiones.
 
 ## Control del Documento
 
