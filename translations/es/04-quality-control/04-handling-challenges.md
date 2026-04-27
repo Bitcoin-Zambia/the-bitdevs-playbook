@@ -17,7 +17,7 @@ Operar una sede de BitDevs conlleva desafíos inevitables, incluyendo fluctuacio
   Reevalúa la selección de temas, invita a moderadores invitados con experiencia o recurre a los recursos globales de BitDevs para restaurar la profundidad. Consulta recursos como https://delvingbitcoin.org/ y https://bitcoinops.org/ para discusiones técnicas actuales e históricas de Bitcoin.
 
 - **Conflictos Comunitarios**
-  Aborda las preocupaciones de manera privada y oportuna. Refuerza el [Código de Conducta](02-community-conduct-and-ethics.md), media las disputas de buena fe y escala los problemas graves o no resueltos a Btrust o a organizadores senior para orientación neutral cuando sea necesario.
+  Aborda las preocupaciones de manera privada y oportuna. Refuerza el [Código de Conducta](/04-quality-control/02-community-conduct-and-ethics.md), media las disputas de buena fe y escala los problemas graves o no resueltos a Btrust o a organizadores senior para orientación neutral cuando sea necesario.
 
 BitDevs prospera con transparencia, resiliencia y colaboración. Cada desafío presenta una oportunidad para refinar sistemas, fortalecer los lazos comunitarios y mantener los estándares que hacen que la red sea respetada globalmente.
 
