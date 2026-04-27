@@ -1,13 +1,13 @@
 - 01 - Introducción
-  - [01 - Acerca de Este Playbook](/01-introduction/01-about-this-playbook.md)
-  - [02 - Acerca de BitDevs](/01-introduction/02-about-bitdevs.md)
-  - [03 - Identidad y Principios Fundamentales](/01-introduction/03-identity-and-core-principles.md)
-  - [04 - BitDevs en África: Patrocinado por Btrust](/01-introduction/04-bitdevs-in-africa-sponsored-by-btrust.md)
-  - [05 - Registros y Documentación](/01-introduction/05-records-and-documentation.md)
+  - [01 - Acerca de Este Playbook](./01-introduction/01-about-this-playbook.md)
+  - [02 - Acerca de BitDevs](./01-introduction/02-about-bitdevs.md)
+  - [03 - Identidad y Principios Fundamentales](./01-introduction/03-identity-and-core-principles.md)
+  - [04 - BitDevs en África: Patrocinado por Btrust](./01-introduction/04-bitdevs-in-africa-sponsored-by-btrust.md)
+  - [05 - Registros y Documentación](./01-introduction/05-records-and-documentation.md)
 
 - 02 - Cómo crear una ubicación de BitDevs
-  - [01 - Iniciar una Sede BitDevs](/02-starting-a-bitdevs-location/01-setting-up-a-location.md)
-  - [02 - Encontrar y Trabajar con Patrocinadores](/02-starting-a-bitdevs-location/02-finding-and-working-with-sponsors.md)
+  - [01 - Iniciar una Sede BitDevs](/translations/es/02-starting-a-bitdevs-location/01-setting-up-a-location.md)
+  - [02 - Encontrar y Trabajar con Patrocinadores](.translations/es/02-starting-a-bitdevs-location/02-finding-and-working-with-sponsors.md)
   - [03 - Obtener Aprobación para Patrocinio (con Btrust)](/02-starting-a-bitdevs-location/03-getting-approved-for-sponsorship-with-Btrust.md)
   - [04 - Construir tu Equipo Organizador](/02-starting-a-bitdevs-location/04-building-your-organizing-team.md)
   - [05 - Planificar y Organizar tu Primer Meetup](/02-starting-a-bitdevs-location/05-planning-and-hosting-your-first-meetup.md)
