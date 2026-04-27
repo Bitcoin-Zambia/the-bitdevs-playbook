@@ -7,7 +7,7 @@ Las comunidades evolucionan, y muchas sedes pausadas eventualmente regresan más
 Si tu sede fue previamente pausada o cerrada, la reapertura debe seguir los mismos estándares intencionales que comenzar desde cero, aprovechando la experiencia pasada.
 
 - **Consultar la Guía de Configuración**
-  Revisa [*Iniciar una Sede BitDevs*](../02-starting-a-bitdevs-location/01-setting-up-a-location.md) para realinearte con el propósito central, principios y expectativas operativas.
+  Revisa [*Iniciar una Sede BitDevs*](/translations/es/02-starting-a-bitdevs-location/01-setting-up-a-location.md) para realinearte con el propósito central, principios y expectativas operativas.
 
 - **Evaluar la Demanda Local**
   Confirma que una comunidad técnica de Bitcoin aún existe o puede ser revivida de manera realista en tu área a través de difusión, conversaciones o sesiones piloto.
@@ -34,4 +34,4 @@ Btrust revisa las nuevas solicitudes basándose en la preparación, el compromis
 
 Este proceso asegura que las sedes que regresan reinicien con estructura mejorada, capacidad renovada y conocimientos adquiridos de la experiencia anterior.
 
-*(Ver: [Anexo K: Lista de Verificación de Cierre y Traspaso de Sede.](../08-annexes.md))*
+*(Ver: [Anexo K: Lista de Verificación de Cierre y Traspaso de Sede.](/translations/es/08-annexes.md))*
