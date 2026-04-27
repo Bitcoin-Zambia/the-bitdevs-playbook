@@ -3,7 +3,7 @@
 [![Versión](https://img.shields.io/badge/versión-0.1.0-blue?style=flat-square)](https://btrust.tech/bitdevs)
 [![Última Actualización](https://img.shields.io/badge/última%20actualización-Diciembre%202025-lightgrey?style=flat-square)](https://btrust.tech/bitdevs)
 [![Contacto](https://img.shields.io/badge/contacto-builders@btrust.tech-deepgreen?style=flat-square)](mailto:builders@btrust.tech)
-[![Licencia: CC BY 4.0](https://img.shields.io/badge/Licencia-CC%20BY%204.0-blue?style=flat-square)](../../LICENSE.md)
+[![Licencia: CC BY 4.0](https://img.shields.io/badge/Licencia-CC%20BY%204.0-blue?style=flat-square)](././LICENSE.md)
 
 > **Estado:** Versión inicial (v0.1.0). Activamente en uso por las sedes de BitDevs apoyadas por Btrust.
 >
