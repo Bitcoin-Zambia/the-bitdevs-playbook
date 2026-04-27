@@ -17,4 +17,4 @@ Si bien cada comunidad BitDevs refleja su cultura y contexto local, todas las se
 5. **No Comercial**
    BitDevs es un espacio neutral y no comercial. Los meetups deben ser gratuitos, y nadie debe usarlos para promocionar productos o servicios. Los patrocinios, cuando son necesarios, cubren solo la logística esencial como el lugar o los refrigerios.
 
-*(Ver: [Anexo A: Guía BitDevs.](../08-annexes.md))*
+*(Ver: [Anexo A: Guía BitDevs.](/08-annexes.md))*
