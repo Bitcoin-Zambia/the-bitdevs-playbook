@@ -35,4 +35,4 @@ Btrust apoya varias sedes de BitDevs en África para fortalecer las comunidades 
 
 El patrocinio de Btrust se enfoca en la logística, no en la influencia, cubriendo costos esenciales mientras preserva la total independencia del organizador sobre el contenido y el formato.
 
-(Ver detalle en la Sección 2: [Obtener Aprobación para Patrocinio con Btrust.](../02-starting-a-bitdevs-location/03-getting-approved-for-sponsorship-with-Btrust.md))
+(Ver detalle en la Sección 2: [Obtener Aprobación para Patrocinio con Btrust.](/translations/es/02-starting-a-bitdevs-location/03-getting-approved-for-sponsorship-with-Btrust.md))
