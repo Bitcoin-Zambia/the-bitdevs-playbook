@@ -41,7 +41,7 @@
   - [03 - Rendición de Cuentas y Colaboración](./07-guide-for-sponsors/03-accountability-and-collaboration.md)
   - [04 - Asociarse para un Impacto a Largo Plazo](./07-guide-for-sponsors/04-partnering-for-long-term-impact.md)
 
-- [08 - Anexos](/08-annexes.md)
+- **[08 - Anexos](/08-annexes.md)**
   - [Anexo A: Guía BitDevs](/08-annexes.md?id=anexo-a-guía-bitdevs)
   - [Anexo B: Mapa de BitDevs en África](/08-annexes.md?id=anexo-b-mapa-de-bitdevs-en-África)
   - [Anexo C: Formato de Reporte de Evento](/08-annexes.md?id=anexo-c-formato-de-reporte-de-evento)
