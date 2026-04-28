@@ -25,24 +25,24 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script>
     const path = window.location.pathname;
-    const githubBase = 'https://github.com/bitcoin-zambia/the-bitdevs-playbook/tree/main/';
+    const githubBase = 'https://github.com/bitcoin-zambia/bitdevs-playbook/tree/main/';
     let githubPath = githubBase;
     let sidebarName = 'The BitDevs Playbook';
-    let pageTitle = 'The BitDevs Playbook';
+    let pageTitle = 'The BitDevs Playbook by Btrust';
 
     if (path.includes('/translations/es/')) {
       githubPath = githubBase + 'translations/es/';
       sidebarName = 'El BitDevs Playbook';
-      pageTitle = 'El BitDevs Playbook';
+      pageTitle = 'El BitDevs Playbook por Btrust';
     }
 
     window.$docsify = {
       ready: function(vm) {
         document.title = pageTitle;
       },
-      basePath: '/the-bitdevs-playbook/',
+      basePath: '/bitdevs-playbook/',
       name: sidebarName,
-      repo: 'Bitcoin-Zambia/the-bitdevs-playbook',
+      repo: 'Bitcoin-Zambia/bitdevs-playbook',
       loadSidebar: true,
       search: 'auto',
       plugins: [
