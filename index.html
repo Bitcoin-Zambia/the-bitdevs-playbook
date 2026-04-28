@@ -8,15 +8,10 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-plugin-gitalk-fixed@1.0.0/styles.css">
   <style>
     /* Sidebar title styling */
-    .sidebar-nav h1 {
+    .sidebar-nav > h1 {
       font-size: 24px;
       font-weight: bold;
       margin: 20px 0 15px 0;
-    }
-
-    .app-name {
-      font-size: 24px;
-      font-weight: bold;
     }
 
     /* Target the edit link more specifically */
@@ -152,15 +147,12 @@
       githubPath = githubBase + langData.path;
       sidebarName = langData.sidebar;
       pageTitle = langData.title;
-      window.$docsify.name = sidebarName; // Update the config
+      window.$docsify.name = sidebarName;
 
       document.title = pageTitle;
 
-      // Update the sidebar title in the DOM immediately
-      const sidebarTitle = document.querySelector('.sidebar-nav h1') || 
-                          document.querySelector('.app-name') ||
-                          document.querySelector('.sidebar-nav a[href*="#/"]');
-      
+      // Update only the h1 directly in sidebar-nav
+      const sidebarTitle = document.querySelector('.sidebar-nav > h1');
       if (sidebarTitle) {
         sidebarTitle.textContent = sidebarName;
       }
@@ -182,7 +174,6 @@
         }
       });
 
-      // Close dropdown when language changes
       document.getElementById('language-menu').classList.remove('active');
     }
 
@@ -197,7 +188,7 @@
       document.getElementById('language-menu').classList.remove('active');
     });
 
-    updateTitles(); // Set initial titles
+    updateTitles();
 
     window.$docsify = {
       ready: function(vm) {
