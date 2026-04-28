@@ -19,11 +19,11 @@
       content: '📝 ';
     }
 
-    /* Language selector - moved to top-left */
+    /* Language selector - moved to top-right */
     .language-selector {
       position: fixed;
       top: 20px;
-      left: 20px;
+      right: 20px;
       z-index: 1000;
     }
     .language-selector a {
@@ -65,29 +65,23 @@
     let sidebarName = 'The BitDevs Playbook';
     let pageTitle = 'The BitDevs Playbook by Btrust';
 
-    if (hash.includes('/translations/es/')) {
-      githubPath = githubBase + 'translations/es/';
-      sidebarName = 'El BitDevs Playbook';
-      pageTitle = 'El BitDevs Playbook por Btrust';
-    }
-
-    window.$docsify = {
-      ready: function(vm) {
-        document.title = pageTitle;
-        updateLanguageButtons();
-      },
-      hashchange: function() {
-        hash = window.location.hash;
-        updateLanguageButtons();
-      },
-      basePath: '/bitdevs-playbook/',
-      name: sidebarName,
-      repo: 'Bitcoin-Zambia/bitdevs-playbook',
-      loadSidebar: true,
-      search: 'auto',
-      plugins: [
-        EditOnGithubPlugin.create(githubPath)
-      ]
+    function updateTitles() {
+      hash = window.location.hash;
+      if (hash.includes('/translations/es/')) {
+        githubPath = githubBase + 'translations/es/';
+        sidebarName = 'El BitDevs Playbook';
+        pageTitle = 'El BitDevs Playbook por Btrust';
+      } else {
+        githubPath = githubBase;
+        sidebarName = 'The BitDevs Playbook';
+        pageTitle = 'The BitDevs Playbook by Btrust';
+      }
+      document.title = pageTitle;
+      // Update the sidebar name in the DOM
+      const sidebarTitle = document.querySelector('.sidebar-nav h1') || document.querySelector('[data-nav]');
+      if (sidebarTitle) {
+        sidebarTitle.textContent = sidebarName;
+      }
     }
 
     function updateLanguageButtons() {
@@ -100,6 +94,27 @@
         enLink.classList.add('active');
         esLink.classList.remove('active');
       }
+    }
+
+    updateTitles(); // Set initial titles
+
+    window.$docsify = {
+      ready: function(vm) {
+        updateTitles();
+        updateLanguageButtons();
+      },
+      hashchange: function() {
+        updateTitles();
+        updateLanguageButtons();
+      },
+      basePath: '/bitdevs-playbook/',
+      name: sidebarName,
+      repo: 'Bitcoin-Zambia/bitdevs-playbook',
+      loadSidebar: true,
+      search: 'auto',
+      plugins: [
+        EditOnGithubPlugin.create(githubPath)
+      ]
     }
   </script>
 </body>
