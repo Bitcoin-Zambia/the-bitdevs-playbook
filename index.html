@@ -19,11 +19,11 @@
       content: '📝 ';
     }
 
-    /* Language selector */
+    /* Language selector - moved to top-left */
     .language-selector {
       position: fixed;
       top: 20px;
-      right: 20px;
+      left: 20px;
       z-index: 1000;
     }
     .language-selector a {
@@ -59,7 +59,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script>
-    const hash = window.location.hash;
+    let hash = window.location.hash;
     const githubBase = 'https://github.com/bitcoin-zambia/bitdevs-playbook/tree/main/';
     let githubPath = githubBase;
     let sidebarName = 'The BitDevs Playbook';
@@ -74,16 +74,11 @@
     window.$docsify = {
       ready: function(vm) {
         document.title = pageTitle;
-        // Update active language link
-        const enLink = document.getElementById('en-link');
-        const esLink = document.getElementById('es-link');
-        if (hash.includes('/translations/es/')) {
-          enLink.classList.remove('active');
-          esLink.classList.add('active');
-        } else {
-          enLink.classList.add('active');
-          esLink.classList.remove('active');
-        }
+        updateLanguageButtons();
+      },
+      hashchange: function() {
+        hash = window.location.hash;
+        updateLanguageButtons();
       },
       basePath: '/bitdevs-playbook/',
       name: sidebarName,
@@ -93,6 +88,18 @@
       plugins: [
         EditOnGithubPlugin.create(githubPath)
       ]
+    }
+
+    function updateLanguageButtons() {
+      const enLink = document.getElementById('en-link');
+      const esLink = document.getElementById('es-link');
+      if (window.location.hash.includes('/translations/es/')) {
+        enLink.classList.remove('active');
+        esLink.classList.add('active');
+      } else {
+        enLink.classList.add('active');
+        esLink.classList.remove('active');
+      }
     }
   </script>
 </body>
