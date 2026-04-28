@@ -18,10 +18,43 @@
     a[href*="github.com"][href*="edit"]::before {
       content: '📝 ';
     }
+
+    /* Language selector */
+    .language-selector {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+    .language-selector a {
+      display: inline-block;
+      padding: 8px 12px;
+      margin: 0 5px;
+      background: #f7931a;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 14px;
+      transition: background 0.3s;
+    }
+    .language-selector a:hover {
+      background: #c97e1b;
+    }
+    .language-selector a.active {
+      background: #c97e1b;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
   <div id="app"></div>
+  
+  <!-- Language Selector -->
+  <div class="language-selector">
+    <a id="en-link" href="#/" class="active">English</a>
+    <a id="es-link" href="#/translations/es/">Español</a>
+  </div>
+
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
@@ -41,6 +74,16 @@
     window.$docsify = {
       ready: function(vm) {
         document.title = pageTitle;
+        // Update active language link
+        const enLink = document.getElementById('en-link');
+        const esLink = document.getElementById('es-link');
+        if (hash.includes('/translations/es/')) {
+          enLink.classList.remove('active');
+          esLink.classList.add('active');
+        } else {
+          enLink.classList.add('active');
+          esLink.classList.remove('active');
+        }
       },
       basePath: '/bitdevs-playbook/',
       name: sidebarName,
