@@ -5,6 +5,7 @@
   <title>The BitDevs Playbook by Btrust</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-plugin-gitalk-fixed@1.0.0/styles.css">
   <style>
     /* Target the edit link more specifically */
     a[href*="github.com"][href*="edit"] {
@@ -114,6 +115,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@joeybaker/docsify-corner@latest"></script>
   <script>
     let hash = window.location.hash;
     const githubBase = 'https://github.com/bitcoin-zambia/bitdevs-playbook/tree/main/';
@@ -197,6 +199,10 @@
       repo: 'Bitcoin-Zambia/bitdevs-playbook',
       loadSidebar: true,
       search: 'auto',
+      corner: {
+        url: 'https://github.com/bitcoin-zambia/bitdevs-playbook',
+        position: 'right'
+      },
       plugins: [
         EditOnGithubPlugin.create(githubPath)
       ]
