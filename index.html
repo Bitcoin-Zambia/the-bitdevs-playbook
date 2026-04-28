@@ -196,11 +196,13 @@
       },
       hashchange: function() {
         updateTitles();
+        // Force sidebar reload by reloading the entire app
+        location.reload();
       },
       basePath: '/bitdevs-playbook/',
       name: sidebarName,
       repo: 'Bitcoin-Zambia/bitdevs-playbook',
-      loadSidebar: true,
+      loadSidebar: '_sidebar.md',
       search: 'auto',
       corner: {
         url: 'https://github.com/bitcoin-zambia/bitdevs-playbook',
