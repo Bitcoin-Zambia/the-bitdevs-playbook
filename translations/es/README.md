@@ -133,4 +133,4 @@ Este Playbook se mantiene digitalmente para:
 
 ## Licencia
 
-Este Playbook es © 2025 [Btrust](https://www.btrust.tech/) y está licenciado bajo la licencia [Creative Commons Attribution 4.0 International (CC BY 4.0)](../../LICENSE.md).
+Este Playbook es © 2025 [Btrust](https://www.btrust.tech/) y está licenciado bajo la licencia [Creative Commons Attribution 4.0 International (CC BY 4.0)](/LICENSE.md).
