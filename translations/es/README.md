@@ -104,7 +104,7 @@ El playbook refleja el ciclo de vida de una sede de BitDevs: configuración, ope
 | Abubakar Nur Khalil | Revisor              | CEO, Btrust                           | [@Zero-1729](https://github.com/Zero-1729)
 | Simon Njeru         | Revisor              | Organizador Principal, BitDevs Nairobi | [@xyephy](https://github.com/xyephy)
 | Tobechi Chukwuleta  | Revisor              | Organizador Principal, BitDevs Lagos   | [@TChukwuleta](https://github.com/TChukwuleta)
-| 5atoshiNakamoto     | Contribuyen           | Advisor, BitDevs Zambia               | [@5atoshiNakamoto](https://github.com/5atoshiNakamoto)
+| 5atoshiNakamoto     | Colaborador           | Advisor, BitDevs Zambia               | [@5atoshiNakamoto](https://github.com/5atoshiNakamoto)
 
 ## Contribuir
 
