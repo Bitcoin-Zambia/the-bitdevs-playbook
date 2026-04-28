@@ -19,11 +19,11 @@
       content: '📝 ';
     }
 
-    /* Language dropdown */
+    /* Language dropdown - moved slightly left */
     .language-selector {
       position: fixed;
       top: 20px;
-      right: 20px;
+      right: 100px;
       z-index: 1000;
     }
 
@@ -138,11 +138,15 @@
       githubPath = githubBase + langData.path;
       sidebarName = langData.sidebar;
       pageTitle = langData.title;
+      window.$docsify.name = sidebarName; // Update the config
 
       document.title = pageTitle;
 
-      // Update the sidebar name in the DOM
-      const sidebarTitle = document.querySelector('.sidebar-nav h1') || document.querySelector('[data-nav]');
+      // Update the sidebar title in the DOM immediately
+      const sidebarTitle = document.querySelector('.sidebar-nav h1') || 
+                          document.querySelector('.app-name') ||
+                          document.querySelector('.sidebar-nav a[href*="#/"]');
+      
       if (sidebarTitle) {
         sidebarTitle.textContent = sidebarName;
       }
