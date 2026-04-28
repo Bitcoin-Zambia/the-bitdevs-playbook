@@ -19,29 +19,80 @@
       content: '📝 ';
     }
 
-    /* Language selector - moved to top-right */
+    /* Language dropdown */
     .language-selector {
       position: fixed;
       top: 20px;
       right: 20px;
       z-index: 1000;
     }
-    .language-selector a {
+
+    .language-dropdown {
+      position: relative;
       display: inline-block;
+    }
+
+    .language-btn {
       padding: 8px 12px;
-      margin: 0 5px;
       background: #f7931a;
       color: white;
-      text-decoration: none;
+      border: none;
       border-radius: 4px;
       font-size: 14px;
+      cursor: pointer;
       transition: background 0.3s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
     }
-    .language-selector a:hover {
+
+    .language-btn:hover {
       background: #c97e1b;
     }
-    .language-selector a.active {
-      background: #c97e1b;
+
+    .language-btn::after {
+      content: '▼';
+      font-size: 10px;
+    }
+
+    .language-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-top: 4px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      min-width: 150px;
+      z-index: 1001;
+    }
+
+    .language-menu.active {
+      display: block;
+    }
+
+    .language-menu a {
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none;
+      color: #333;
+      transition: background 0.2s;
+      border-bottom: 1px solid #eee;
+    }
+
+    .language-menu a:last-child {
+      border-bottom: none;
+    }
+
+    .language-menu a:hover {
+      background: #f5f5f5;
+    }
+
+    .language-menu a.active {
+      background: #f7931a;
+      color: white;
       font-weight: bold;
     }
   </style>
@@ -49,10 +100,15 @@
 <body>
   <div id="app"></div>
   
-  <!-- Language Selector -->
+  <!-- Language Dropdown -->
   <div class="language-selector">
-    <a id="en-link" href="#/" class="active">English</a>
-    <a id="es-link" href="#/translations/es/">Español</a>
+    <div class="language-dropdown">
+      <button class="language-btn" id="language-btn">EN</button>
+      <div class="language-menu" id="language-menu">
+        <a href="#/" data-lang="en">English</a>
+        <a href="#/translations/es/" data-lang="es">Español</a>
+      </div>
+    </div>
   </div>
 
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
@@ -65,47 +121,72 @@
     let sidebarName = 'The BitDevs Playbook';
     let pageTitle = 'The BitDevs Playbook by Btrust';
 
+    const languages = {
+      en: { name: 'English', sidebar: 'The BitDevs Playbook', title: 'The BitDevs Playbook by Btrust', path: '' },
+      es: { name: 'Español', sidebar: 'El BitDevs Playbook', title: 'El BitDevs Playbook por Btrust', path: 'translations/es/' }
+    };
+
     function updateTitles() {
       hash = window.location.hash;
+      let currentLang = 'en';
+
       if (hash.includes('/translations/es/')) {
-        githubPath = githubBase + 'translations/es/';
-        sidebarName = 'El BitDevs Playbook';
-        pageTitle = 'El BitDevs Playbook por Btrust';
-      } else {
-        githubPath = githubBase;
-        sidebarName = 'The BitDevs Playbook';
-        pageTitle = 'The BitDevs Playbook by Btrust';
+        currentLang = 'es';
       }
+
+      const langData = languages[currentLang];
+      githubPath = githubBase + langData.path;
+      sidebarName = langData.sidebar;
+      pageTitle = langData.title;
+
       document.title = pageTitle;
+
       // Update the sidebar name in the DOM
       const sidebarTitle = document.querySelector('.sidebar-nav h1') || document.querySelector('[data-nav]');
       if (sidebarTitle) {
         sidebarTitle.textContent = sidebarName;
       }
+
+      updateLanguageDropdown(currentLang);
     }
 
-    function updateLanguageButtons() {
-      const enLink = document.getElementById('en-link');
-      const esLink = document.getElementById('es-link');
-      if (window.location.hash.includes('/translations/es/')) {
-        enLink.classList.remove('active');
-        esLink.classList.add('active');
-      } else {
-        enLink.classList.add('active');
-        esLink.classList.remove('active');
-      }
+    function updateLanguageDropdown(currentLang) {
+      const btn = document.getElementById('language-btn');
+      const menuLinks = document.querySelectorAll('#language-menu a');
+
+      btn.textContent = currentLang.toUpperCase();
+
+      menuLinks.forEach(link => {
+        if (link.dataset.lang === currentLang) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+
+      // Close dropdown when language changes
+      document.getElementById('language-menu').classList.remove('active');
     }
+
+    // Toggle dropdown on button click
+    document.getElementById('language-btn').addEventListener('click', function(e) {
+      e.stopPropagation();
+      document.getElementById('language-menu').classList.toggle('active');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function() {
+      document.getElementById('language-menu').classList.remove('active');
+    });
 
     updateTitles(); // Set initial titles
 
     window.$docsify = {
       ready: function(vm) {
         updateTitles();
-        updateLanguageButtons();
       },
       hashchange: function() {
         updateTitles();
-        updateLanguageButtons();
       },
       basePath: '/bitdevs-playbook/',
       name: sidebarName,
