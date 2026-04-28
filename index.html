@@ -12,6 +12,14 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script>
     window.$docsify = {
+    ready: function(vm) {
+    const path = window.location.pathname;
+    if (path.includes('/translations/es/')) {
+      document.title = 'El BitDevs Playbook';
+    } else {
+      document.title = 'The BitDevs Playbook';
+    }
+  },
       basePath: '/the-bitdevs-playbook/',
       name: 'The BitDevs Playbook',
       repo: 'Bitcoin-Zambia/the-bitdevs-playbook',
