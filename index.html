@@ -5,31 +5,47 @@
   <title>The BitDevs Playbook by Btrust</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <style>
+    .edit-on-github {
+      position: fixed !important;
+      bottom: 20px !important;
+      left: 20px !important;
+      top: auto !important;
+      right: auto !important;
+    }
+    .edit-on-github::before {
+      content: '📝 ';
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script>
-    window.$docsify = {
-    ready: function(vm) {
     const path = window.location.pathname;
+    const githubBase = 'https://github.com/bitcoin-zambia/the-bitdevs-playbook/tree/main/';
+    let githubPath = githubBase;
+
     if (path.includes('/translations/es/')) {
-      document.title = 'El BitDevs Playbook';
-    } else {
-      document.title = 'The BitDevs Playbook';
+      githubPath = githubBase + 'translations/es/';
     }
-  },
+
+    window.$docsify = {
+      ready: function(vm) {
+        if (path.includes('/translations/es/')) {
+          document.title = 'El BitDevs Playbook';
+        } else {
+          document.title = 'The BitDevs Playbook';
+        }
+      },
       basePath: '/the-bitdevs-playbook/',
       name: 'The BitDevs Playbook',
       repo: 'Bitcoin-Zambia/the-bitdevs-playbook',
       loadSidebar: true,
       search: 'auto',
-
       plugins: [
-        EditOnGithubPlugin.create(
-          'https://github.com/bitcoin-zambia/the-bitdevs-playbook/tree/main/'
-        )
+        EditOnGithubPlugin.create(githubPath)
       ]
     }
   </script>
