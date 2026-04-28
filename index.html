@@ -27,21 +27,21 @@
     const path = window.location.pathname;
     const githubBase = 'https://github.com/bitcoin-zambia/the-bitdevs-playbook/tree/main/';
     let githubPath = githubBase;
+    let sidebarName = 'The BitDevs Playbook';
+    let pageTitle = 'The BitDevs Playbook';
 
     if (path.includes('/translations/es/')) {
       githubPath = githubBase + 'translations/es/';
+      sidebarName = 'El BitDevs Playbook';
+      pageTitle = 'El BitDevs Playbook';
     }
 
     window.$docsify = {
       ready: function(vm) {
-        if (path.includes('/translations/es/')) {
-          document.title = 'El BitDevs Playbook';
-        } else {
-          document.title = 'The BitDevs Playbook';
-        }
+        document.title = pageTitle;
       },
       basePath: '/the-bitdevs-playbook/',
-      name: 'The BitDevs Playbook',
+      name: sidebarName,
       repo: 'Bitcoin-Zambia/the-bitdevs-playbook',
       loadSidebar: true,
       search: 'auto',
