@@ -6,14 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
   <style>
-    .edit-on-github {
+    /* Target the edit link more specifically */
+    a[href*="github.com"][href*="edit"] {
       position: fixed !important;
       bottom: 20px !important;
       left: 20px !important;
       top: auto !important;
       right: auto !important;
+      z-index: 999 !important;
     }
-    .edit-on-github::before {
+    a[href*="github.com"][href*="edit"]::before {
       content: '📝 ';
     }
   </style>
